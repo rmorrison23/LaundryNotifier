@@ -1,6 +1,10 @@
 LaundryNotifier
 ===============
-text here
+The purpose of this project is to extend convenience by freeing one from the responsibility of monitoring when his/her laundry is finished.
+
+The Arduino Uno and an electret microphone are used to measure sound levels of a washer and/or dryer. The Uno exchanges data with a server via the Adafruit CC3000 WiFi chip.
+
+The notifier utilizes a web interface where the user selects which machine is running and then starts the notifier. The Uno + CC3000 continually queries the server until the notifier has been set. At that point, sound levels are monitored to determine when the wash/dry cycle is finished. A text message is sent to the user when the laundry is finished.
 
 ## Requirements
 #### Hardware
