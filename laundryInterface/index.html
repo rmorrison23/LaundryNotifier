@@ -1,0 +1,32 @@
+<head>
+
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+
+<LINK href="css/style.css" rel="stylesheet" type="text/css" />
+<LINK href="css/flat-ui.css" rel="stylesheet" type="text/css" />
+
+<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="notifier.js"></script>
+
+</script>
+
+</head>
+
+<body>
+
+<div class="mainContainer">
+
+<div class="buttonBlock"><span class="buttonTitle">Select Appliance:</span>
+    <button class="btn btn-block btn-lg btn-laundry" type="button" id="1" onClick="machineSelect(this.id)">Washer</button>
+    <button class="btn btn-block btn-lg btn-laundry" type="button" id="2" onClick="machineSelect(this.id)">Dryer</button>
+    <button class="btn btn-block btn-lg btn-laundry" type="button" id="3" onClick="machineSelect(this.id)">Both</button>
+</div>
+
+<div class="buttonBlock2">
+	<button class="btn btn-block btn-wide btn-primary" type="button" id="4" onClick="setNotifier()"> Run Washer/Dryer Notifier</button>
+</div>	
+
+
+</div>
+</body>
